@@ -1,0 +1,98 @@
+:root{
+  background-color: #242424;
+  user-select: none;
+}
+
+body{
+  display: flex;
+}
+
+select{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1rem;
+  background-color: #242424;
+  color: dodgerblue;
+}
+
+h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 3rem;
+  color: orange;
+  text-decoration: underline solid dodgerblue;
+}
+
+h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: cyan;
+}
+
+h3{
+  font-family: monospace;
+  font-size: 1.5rem;
+  color: cyan;
+}
+
+h3 > span{
+  font-family: monospace;
+  color: lightcoral
+}
+
+a{
+  text-decoration: none;
+  color: dodgerblue;
+  font-family: monospace;
+  transition: color 0.5s ease-in-out;
+}
+
+p{
+  font-family: monospace;
+  color: rgba(255,255,255,0.83);
+}
+
+.article-div{
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 1rem 0rem;
+  padding: 0rem 1rem;
+}
+
+.article-div:hover{
+  border: 2px solid dodgerblue;
+}
+
+span{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: lightcoral;
+}
+
+.ending{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ending-text{
+  font-family: monospace;
+  font-size: xx-larger;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  -webkit-user-drag: none;
+}
+
+::-webkit-scrollbar{
+  width: 2px;
+  background-color: #242424;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: dodgerblue;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: orange;
+}
